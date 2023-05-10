@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link href="./assets/boostrap/bootstrap.min.css" rel="stylesheet">
+        <link href="./assets/styles/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Calculadora</a>
+        </nav>
+        <div class="container-fluid mt-2">
+            <div class="card card-personalizado">
+                <div class="card-header">
+                    Ingrese sus operaciones
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="ingrese los valores a calcular" disabled> 
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="btn-group btn-group-lg" >
+                                        <button type="button" class="btn btn-primary m-1" id="btn7" >7</button>
+                                        <button type="button" class="btn btn-primary m-1" id="btn8">8</button>
+                                        <button type="button" class="btn btn-primary m-1" id="btn9">9</button>
+                                        <button type="button" class="btn btn-info m-1" id="btnsuma">+</button>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="btn-group btn-group-lg" >
+                                        <button type="button" class="btn btn-primary m-1" id="btn4">4</button>
+                                        <button type="button" class="btn btn-primary m-1" id="btn5">5</button>
+                                        <button type="button" class="btn btn-primary m-1" id="btn6">6</button>
+                                        <button type="button" class="btn btn-info m-1" id="btnresta">-</button>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="btn-group btn-group-lg" >
+                                        <button type="button" class="btn btn-primary m-1" id="btn1">1</button>
+                                        <button type="button" class="btn btn-primary m-1" id="btn2">2</button>
+                                        <button type="button" class="btn btn-primary m-1" id="btn3">3</button>
+                                        <button type="button" class="btn btn-info m-1" id="btnmultiplicacion">*</button>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="btn-group btn-group-lg" >
+                                        <button type="button" class="btn btn-danger m-1" id="btnpunto">.</button>
+                                        <button type="button" class="btn btn-primary m-1" id="btn0">0</button>
+                                        <button type="button" class="btn btn-danger m-1" id="btnigual">=</button>
+                                        <button type="button" class="btn btn-info m-1" id="btndividir">/</button>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="btn-group btn-group-lg" >
+                                        <button type="button" class="btn btn-warning m-1" id="btnlimpiar">Limpiar</button>                                        
+                                      </div>
+                                </div>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+.card-personalizado {
+    width: 20rem;    
+    text-align: center;
+    font-weight: 700;
+    background-color: azure;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
